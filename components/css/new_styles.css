@@ -203,7 +203,8 @@ div {
     height: auto;
     padding: 0px;
     min-width: 440px;
-    z-index: 14; }
+    z-index: 14;
+    position: absolute; }
     .header .logo {
       width: 163px;
       height: 41px;
