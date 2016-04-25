@@ -170,8 +170,9 @@ $(document).ready(function() {
 
         $('.n-pop-order__reverse').click(function(){
             $('.n-pop-order').removeClass('n-pop-order--active');
-            $(this).parent().removeClass('active');
+            $(this).parent().removeClass('active2');
             $('.feedback__form_order').removeClass('active');
+            $('.feedback__form_order').removeClass('active2');
             $('.page').css('height','auto');
         });
 
@@ -188,7 +189,8 @@ $(document).ready(function() {
             } else {
                 $('.page').css('height','auto');
             }
-            $('.feedback__form_order').toggleClass('active');
+            $('.feedback__form_order').removeClass('active');
+            $('.feedback__form_order').toggleClass('active2');
         });
 
         $('.n-phone').click(function(){

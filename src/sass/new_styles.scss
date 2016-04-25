@@ -753,6 +753,10 @@ div {
 		display: block;
 		@include transition();
 
+		@media all and (max-width: 1070px) {
+			right: -100%;
+		}
+
 		label {
 			color: #333333;
 		}
@@ -892,6 +896,15 @@ div {
 	}
 
 	.feedback__form.active {
+		left: 0;
+
+		@media all and(max-width: 1070px) {
+			left: auto;
+			right: -100%;
+		}
+	}
+
+	.feedback__form.active2 {
 		left: 0;
 	}
 

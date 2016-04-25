@@ -479,7 +479,12 @@ div {
     display: block;
     transition: all 0.15s linear;
     -webkit-transition: all 0.15s linear;
-    -moz-transition: all 0.15s linear; }
+    -moz-transition: all 0.15s linear; } }
+  @media all and (max-width: 1070px) and (max-width: 1070px) {
+    .feedback__form_order {
+      right: -100%; } }
+
+@media all and (max-width: 1070px) {
     .feedback__form_order label {
       color: #333333; }
     .feedback__form_order .form {
@@ -562,6 +567,14 @@ div {
   .content-link {
     color: #333333; }
   .feedback__form.active {
+    left: 0; } }
+  @media all and (max-width: 1070px) and (max-width: 1070px) {
+    .feedback__form.active {
+      left: auto;
+      right: -100%; } }
+
+@media all and (max-width: 1070px) {
+  .feedback__form.active2 {
     left: 0; }
   .feedback__links-item__inner {
     display: none; }
