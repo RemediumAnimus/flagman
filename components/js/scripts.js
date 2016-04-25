@@ -1,6 +1,5 @@
 $(document).ready(function() {
     (function(){
-
         function isMobileWidth() {
             return $('#mobile-indicator').is(':visible');
         };
@@ -172,6 +171,7 @@ $(document).ready(function() {
         $('.n-pop-order__reverse').click(function(){
             $('.n-pop-order').removeClass('n-pop-order--active');
             $(this).parent().removeClass('active');
+            $('.feedback__form_order').removeClass('active');
             $('.page').css('height','auto');
         });
 

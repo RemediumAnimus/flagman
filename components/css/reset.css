@@ -1,0 +1,5 @@
+@media all and (max-width: 1070px) {
+    .feedback__form_order {
+        //display: none;
+    }
+}
