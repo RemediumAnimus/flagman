@@ -158,6 +158,7 @@ $(document).ready(function() {
             } else {
                 $('.btn_primary').off('click', openPop);
                 $('.btn_primary').click(function(e){
+                    e.preventDefault();
                     if (!$('.n-pop-order').hasClass('n-pop-order--active')) {
                         $('.page').css('height',$('.n-pop-order__container').outerHeight() + 120);
                     } else {
