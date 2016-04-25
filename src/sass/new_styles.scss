@@ -138,6 +138,10 @@ div {
 		@include transition();
 		cursor: pointer;
 
+		@media all and (max-width: 1070px) {
+			font-size: 26px;
+		}
+
 		&:hover {
 			background: darken(#00a651, 10%);
 		}
@@ -360,6 +364,7 @@ div {
 
 	#prices .n-btn {
 		width: 100%;
+		font-size: 26px;
 	}
 
 	#prices .table_striped {
@@ -482,6 +487,10 @@ div {
 				width: 46%;
 				font-weight: 300;
 				font-size: 16px;
+
+				@media all and (max-width: 1070px) {
+					font-size: 26px;
+				}
 			}
 
 			&:after {
@@ -568,6 +577,10 @@ div {
 				width: 46%;
 				font-weight: 300;
 				font-size: 16px;
+
+				@media all and (max-width: 1070px) {
+					font-size: 26px;
+				}
 			}
 
 			&:after {

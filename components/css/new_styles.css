@@ -86,7 +86,12 @@ div {
     transition: all 0.15s linear;
     -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
-    cursor: pointer; }
+    cursor: pointer; } }
+  @media all and (max-width: 1070px) and (max-width: 1070px) {
+    .n-btn {
+      font-size: 26px; } }
+
+@media all and (max-width: 1070px) {
     .n-btn:hover {
       background: #007338; }
   .n-more {
@@ -248,7 +253,8 @@ div {
     padding-bottom: 20px;
     margin-bottom: 30px; }
   #prices .n-btn {
-    width: 100%; }
+    width: 100%;
+    font-size: 26px; }
   #prices .table_striped thead {
     display: none; }
   #prices .table_striped tr td {
@@ -314,7 +320,12 @@ div {
       padding: 12px 20px;
       width: 46%;
       font-weight: 300;
-      font-size: 16px; }
+      font-size: 16px; } }
+    @media all and (max-width: 1070px) and (max-width: 1070px) {
+      #reviews .btn_group a {
+        font-size: 26px; } }
+
+@media all and (max-width: 1070px) {
     #reviews .btn_group:after {
       content: '';
       width: 100%;
@@ -362,7 +373,12 @@ div {
       padding: 12px 20px;
       width: 46%;
       font-weight: 300;
-      font-size: 16px; }
+      font-size: 16px; } }
+    @media all and (max-width: 1070px) and (max-width: 1070px) {
+      #faq .btn_group a {
+        font-size: 26px; } }
+
+@media all and (max-width: 1070px) {
     #faq .btn_group:after {
       content: '';
       width: 100%;
