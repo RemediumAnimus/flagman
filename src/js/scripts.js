@@ -262,11 +262,11 @@ $(document).ready(function() {
 
         $(window).on("load",function(){mobileSliderReset($('#reviews .list__item'),$('#reviews .content__wrapper.slick-initialized'))});
         $(window).on("load",function(){mobileSliderReset($('#faq .accordion__term'),$('#faq .content__wrapper.slick-initialized'))});
-        $(window).on('resize',mobileMenuReset);
+        //$(window).on('resize',mobileMenuReset);
         $(window).on("resize",function(){mobileSliderReset($('#faq .accordion__term'),$('#faq .content__wrapper.slick-initialized'))});
         $(window).on("resize",function(){mobileSliderReset($('#reviews .list__item'),$('#reviews .content__wrapper.slick-initialized'))});
         $(window).on("resize",resetContainer);
         $(window).on("resize",popUp);
-        $(window).on("resize",feedback);
+        //$(window).on("resize",feedback);
     })();
 });
