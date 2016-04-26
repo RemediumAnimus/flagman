@@ -239,7 +239,7 @@ $(document).ready(function() {
         });
 
         $('.slick-list .list__item').click(function(){
-            //openPopResponse();
+            openPopResponse();
         });
 
         $('.n-pop-response__close').click(function(){
