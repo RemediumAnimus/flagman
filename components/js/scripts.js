@@ -239,7 +239,9 @@ $(document).ready(function() {
         });
 
         $('.slick-list .list__item').click(function(){
-            //openPopResponse();
+            if (isMobileWidth()) {
+                openPopResponse();
+            }
         });
 
         $('.n-pop-response__close').click(function(){

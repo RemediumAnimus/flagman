@@ -907,3 +907,6 @@ div {
     .n-pop-response__wrap .n-pop-response__container {
       padding-top: 50px;
       padding-bottom: 50px; }
+
+.mfp-container {
+  padding: 0; }
