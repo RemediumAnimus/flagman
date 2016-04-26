@@ -180,10 +180,10 @@ $(document).ready(function() {
                    $.magnificPopup.close();
                 });
 
-                $('.btn_block').on('click', openPopOrder);
+                $('.n-btn-buy').on('click', openPopOrder);
             } else {
-                $('.btn_block').off();
-                $('.btn_block').click(function(e){
+                $('.n-btn-buy').off();
+                $('.n-btn-buy').click(function(e){
                     e.preventDefault();
                     if (!$('.n-pop-order').hasClass('n-pop-order--active')) {
                         $('.page').css('height',$('.n-pop-order__container').outerHeight() + 120);
