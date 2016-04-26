@@ -894,7 +894,7 @@ div {
     padding: 0px 40px; }
   .n-pop-response__wrap {
     background: #dde2e8;
-    height: 100%; }
+    min-height: 100%; }
     .n-pop-response__wrap p {
       font-size: 18px;
       font-weight: bold;
