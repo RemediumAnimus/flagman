@@ -180,9 +180,9 @@ $(document).ready(function() {
                    $.magnificPopup.close();
                 });
 
-                $('.btn_block').on('click', openPopResponse);
+                $('.btn_block').on('click', openPopOrder);
             } else {
-                $('.btn_block').off(openPopResponse);
+                $('.btn_block').off();
                 $('.btn_block').click(function(e){
                     e.preventDefault();
                     if (!$('.n-pop-order').hasClass('n-pop-order--active')) {
@@ -239,7 +239,7 @@ $(document).ready(function() {
         });
 
         $('.slick-list .list__item').click(function(){
-            openPopResponse();
+            //openPopResponse();
         });
 
         $('.n-pop-response__close').click(function(){
