@@ -167,7 +167,8 @@ $(document).ready(function() {
                 mainClass: 'my-mfp-slide-bottom',
                 callbacks: {
                     open: function() {
-                      $('.mfp-content').css('height','100%');
+                      $('.mfp-content').css('min-height','100%');
+                        $('.mfp-wrap').css('background','#dde2e8');
                     }
                   }
             });
