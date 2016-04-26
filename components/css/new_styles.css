@@ -258,7 +258,7 @@ div {
   #prices .table_striped thead {
     display: none; }
   #prices .table_striped tr td {
-    padding: 26px 10px; }
+    padding: 13px 10px; }
     #prices .table_striped tr td:first-child {
       width: 52%;
       padding-right: 27px; }
@@ -292,7 +292,8 @@ div {
       margin: 0;
       border-bottom: 1px solid #d9d9d9;
       padding: 20px 10px 20px 10px;
-      overflow: hidden; }
+      overflow: hidden;
+      cursor: pointer; }
     #reviews .slick-slider .list__img {
       background: none;
       float: left;
@@ -635,6 +636,8 @@ div {
       margin-bottom: 24px; } }
 
 @media all and (min-width: 1070px) {
+  .n-more {
+    display: none; }
   .n-mob-info {
     display: none; }
   .n-section__bottom {
@@ -859,3 +862,48 @@ div {
   font-size: 18px;
   padding-left: 0;
   padding-right: 0; }
+
+.inner-section .container {
+  padding-top: 120px; }
+
+.inner-section .container.container_stick {
+  background: none; }
+
+.n-pop-response {
+  height: 100%; }
+  .n-pop-response__header {
+    background: #000;
+    height: 70px;
+    background: #000;
+    position: relative; }
+    .n-pop-response__header .n-pop-response__container {
+      height: 100%;
+      position: relative; }
+  .n-pop-response__close {
+    width: 36px;
+    height: 36px;
+    background: url("../icons/cross-big.png");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 40px;
+    cursor: pointer; }
+  .n-pop-response__container {
+    position: relative;
+    padding: 0px 40px; }
+  .n-pop-response__wrap {
+    background: #dde2e8;
+    height: 100%; }
+    .n-pop-response__wrap p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333333; }
+    .n-pop-response__wrap span {
+      font-size: 18px;
+      display: block;
+      color: #333333; }
+    .n-pop-response__wrap .n-pop-response__container {
+      padding-top: 50px;
+      padding-bottom: 50px; }
