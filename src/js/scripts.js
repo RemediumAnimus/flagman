@@ -169,6 +169,7 @@ $(document).ready(function() {
                     open: function() {
                       $('.mfp-content').css('min-height','100%');
                         $('.mfp-wrap').css('background','#dde2e8');
+                        $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'})
                     }
                   }
             });
