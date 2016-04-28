@@ -171,6 +171,8 @@ $(document).ready(function() {
                         $('.mfp-wrap').css('background','#dde2e8');
                         $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'});
                         $('body').css('height','auto');
+                        $('html').css('overflow','auto');
+                        $('.page').css('height',$('.n-pop-response').outerHeight());
                     },
                     close: function(){
                         $('body').css('height','100%');
