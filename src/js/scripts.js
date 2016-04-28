@@ -176,6 +176,7 @@ $(document).ready(function() {
                     },
                     close: function(){
                         $('body').css('height','100%');
+                        $('.page').css('height','auto');
                     }
                   }
             });
