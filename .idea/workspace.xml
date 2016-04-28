@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdc41faf-bac1-4269-8c3c-8b9a5e2881be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/js/scripts.js" afterPath="$PROJECT_DIR$/components/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/scripts.js" afterPath="$PROJECT_DIR$/src/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/new_styles.scss" afterPath="$PROJECT_DIR$/src/sass/new_styles.scss" />
     </list>
     <ignored path="flagman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,17 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new_styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/new_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="1401" column="33" selection-start-line="1401" selection-start-column="33" selection-end-line="1401" selection-end-column="33" />
+            <state relative-caret-position="206">
+              <caret line="1400" column="8" selection-start-line="1400" selection-start-column="8" selection-end-line="1400" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -76,8 +75,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/components/js/main.js" />
-        <option value="$PROJECT_DIR$/src/sass/new_styles.scss" />
         <option value="$PROJECT_DIR$/src/js/scripts.js" />
+        <option value="$PROJECT_DIR$/src/sass/new_styles.scss" />
       </list>
     </option>
   </component>
@@ -279,12 +278,12 @@
       <option name="presentableId" value="Default" />
       <updated>1461863282936</updated>
       <workItem from="1461863284553" duration="2883000" />
-      <workItem from="1461867023904" duration="3526000" />
+      <workItem from="1461867023904" duration="3758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6409000" />
+    <option name="totallyTimeSpent" value="6641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -398,14 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/new_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1401" column="33" selection-start-line="1401" selection-start-column="33" selection-end-line="1401" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -418,6 +409,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="178" column="53" selection-start-line="178" selection-start-column="53" selection-end-line="178" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/new_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1400" column="8" selection-start-line="1400" selection-start-column="8" selection-end-line="1400" selection-end-column="8" />
           <folding />
         </state>
       </provider>
