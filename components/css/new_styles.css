@@ -913,5 +913,5 @@ div {
 .mfp-container {
   padding: 0; }
 
-.mfp-bg {
-  background: red; }
+.mfp-wrap {
+  position: absolute !important; }
