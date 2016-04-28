@@ -914,4 +914,5 @@ div {
   padding: 0; }
 
 .mfp-wrap {
-  position: absolute !important; }
+  position: absolute !important;
+  min-height: 100%; }
