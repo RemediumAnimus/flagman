@@ -423,13 +423,7 @@ $(document).ready(function() {
     function isMobileWidth() {
         return $('#mobile-indicator').is(':visible');
     };
-    //$('body').css('position','static');
-    //$('.page').css('position','static');
-
-    //setTimeout(function(){
-        //$('.page').css('position','relative');
-        //$('body').css('position','relative');
-    //},2500);
+    
     var a = '#' + window.location.href.split('#')[1];
     if (!isMobileWidth()) {
         setTimeout(function() {
