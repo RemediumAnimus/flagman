@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "dependencies": {
     "browser-sync": "*",
-    "gulp": "*",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-plumber": "*",
     "gulp-rigger": "*",
     "gulp-sass": "*",
     "gulp-watch": "*",
     "rimraf": "*",
     "gulp-autoprefixer": "*"
-  },
-  "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
   }
 }

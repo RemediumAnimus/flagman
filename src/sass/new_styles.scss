@@ -19,6 +19,7 @@ div {
 	box-sizing: border-box;
 }
 
+
 .inner-section {
 	height: auto;
 }
@@ -31,9 +32,12 @@ div {
 	position: relative;
 }
 
+
 .page {
 	position: relative;
 	min-height: 100%;
+	width:100%;
+	overflow: hidden;
 
 	@media all and (max-width: $mobile-width) {
 		overflow: hidden;

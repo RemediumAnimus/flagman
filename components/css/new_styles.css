@@ -16,7 +16,9 @@ div {
 
 .page {
   position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden; }
   @media all and (max-width: 1070px) {
     .page {
       overflow: hidden; } }
