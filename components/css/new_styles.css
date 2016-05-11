@@ -483,7 +483,7 @@ div {
     -moz-transition: all 0.15s linear; } }
   @media all and (max-width: 1070px) and (max-width: 1070px) {
     .feedback__form_order {
-      right: -150%; } }
+      right: -100%; } }
 
 @media all and (max-width: 1070px) {
     .feedback__form_order label {
@@ -572,7 +572,7 @@ div {
   @media all and (max-width: 1070px) and (max-width: 1070px) {
     .feedback__form.active {
       left: auto;
-      right: -150%; } }
+      right: -100%; } }
 
 @media all and (max-width: 1070px) {
   .feedback__form.active2 {
