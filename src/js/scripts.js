@@ -145,6 +145,7 @@ $(document).ready(function() {
                 removalDelay: 300,
                 mainClass: 'my-mfp-slide-bottom'
             });
+            $(window).scrollTop(0);
         }
 
         function openPopResponse() {
@@ -183,7 +184,6 @@ $(document).ready(function() {
                 });
 
                 $('.n-btn-buy').on('click', openPopOrder);
-                $(window).scrollTop(0);
             } else {
                 $('.n-btn-buy').off();
                 $('.n-btn-buy').click(function(e){
