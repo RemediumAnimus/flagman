@@ -171,6 +171,8 @@ $(document).ready(function() {
                     open: function() {
                         $('.mfp-wrap').width($(window).width());
                         $('.mfp-wrap').height($(window).height());
+                        $('.n-pop-response').width($(window).width());
+                        $('.n-pop-response').height($(window).height());
                         $('.mfp-content').css('height','100%');
                         $('html').css('min-height','0');
                         $('.mfp-wrap').css('background','#dde2e8');
