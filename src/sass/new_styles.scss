@@ -12,6 +12,7 @@ $mobile-width: 1070px;
 
 $pt: "PT Sans", arial, sans-serif;
 
+
 div {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -109,6 +110,7 @@ div {
 	body {
 		min-width: 440px;
 		position: relative;
+		height: 100%;
 	}
 
 	.n-phone {
@@ -1395,11 +1397,8 @@ div {
 	padding: 0;
 }
 
-.mfp-wrap {
-	position: absolute;
-	width: 100%;
-	min-height: 100%;
-	overflow-y: hidden !important;
+.container {
+	//display: block;
 }
 
 
