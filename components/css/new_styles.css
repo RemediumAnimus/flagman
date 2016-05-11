@@ -911,8 +911,5 @@ div {
 .mfp-container {
   padding: 0; }
 
-.mfp-wrap {
-  position: absolute; }
-
-.mfp-bg {
-  position: absolute; }
+.mfp-content {
+  vertical-align: top; }
