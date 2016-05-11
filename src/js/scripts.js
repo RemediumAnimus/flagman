@@ -173,7 +173,7 @@ $(document).ready(function() {
                         $('html').css('min-height','0');
                         $('.page').hide();
                         $('.mfp-wrap').css('background','#dde2e8');
-                        $('.mfp-wrap').css('min-height','500px');
+                        $('.mfp-wrap').css('min-height','900px');
                         $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'})
                     },
                     close: function() {
