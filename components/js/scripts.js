@@ -174,7 +174,9 @@ $(document).ready(function() {
                         $('.page').hide();
                         $('.mfp-wrap').css('background','#dde2e8');
                         $('.mfp-wrap').css('min-height','900px');
-                        $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'})
+                        $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'});
+                        var body=$("html, body");
+                        body.scrollTop(0);
                     },
                     close: function() {
                         $('html').css('min-height','100%');
