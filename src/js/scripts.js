@@ -145,7 +145,8 @@ $(document).ready(function() {
                 removalDelay: 300,
                 mainClass: 'my-mfp-slide-bottom'
             });
-            $(window).scrollTop(0);
+            var body=$("html, body");
+            body.scrollTop(0);
         }
 
         function openPopResponse() {
@@ -218,7 +219,8 @@ $(document).ready(function() {
             if (!$('.feedback__form_order').hasClass('n-pop-order--active')) {
                 $('.page').css('height',$('.feedback__form_order').find('form').outerHeight() + 350);
                 $('.feedback__form_order').css('height','100%');
-                $(window).scrollTop(0);
+                var body=$("html, body");
+                body.scrollTop(0);
             } else {
                 $('.page').css('height','auto');
             }
@@ -231,7 +233,8 @@ $(document).ready(function() {
             if (!$('.feedback__form_call').hasClass('feedback__form_call--active')) {
                 $('.page').css('height',$('.feedback__form_call').find('form').outerHeight() + 350);
                 $('.feedback__form_call').css('height','100%');
-                $(window).scrollTop(0);
+                var body=$("html, body");
+                body.scrollTop(0);
             } else {
                 $('.page').css('height','auto');
             }
