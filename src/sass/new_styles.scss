@@ -12,6 +12,21 @@ $mobile-width: 1070px;
 
 $pt: "PT Sans", arial, sans-serif;
 
+@viewport
+{
+width:320px;
+}
+
+@-ms-viewport {
+width:320px;
+zoom-user:fixed;
+max-zoom:0.6;
+min-zoom:0.6;
+}
+
+body, html {
+  -ms-overflow-style: none !important;
+}
 
 div {
 	-webkit-box-sizing: border-box;
