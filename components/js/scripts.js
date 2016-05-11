@@ -169,6 +169,8 @@ $(document).ready(function() {
                 mainClass: 'my-mfp-slide-bottom',
                 callbacks: {
                     open: function() {
+                        $('.mfp-wrap').width($(window).width());
+                        $('.mfp-wrap').height($(window).height());
                         $('.mfp-content').css('height','100%');
                         $('html').css('min-height','0');
                         $('.mfp-wrap').css('background','#dde2e8');
