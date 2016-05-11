@@ -143,7 +143,7 @@ $(document).ready(function() {
                 closeMarkup: '',
                 midClick: true,
                 removalDelay: 300,
-                mainClass: 'my-mfp-slide-bottom'
+                mainClass: 'my-mfp-slide-bottom',
             });
             var body=$("html, body");
             body.scrollTop(0);
@@ -192,6 +192,8 @@ $(document).ready(function() {
                     if (!$('.n-pop-order').hasClass('n-pop-order--active')) {
                         $('.page').css('height',$('.n-pop-order__container').outerHeight() + 120);
                         $('.n-pop-order').addClass('n-pop-order--active');
+                        var body=$("html, body");
+                        body.scrollTop(0);
                     } else {
                        $('.page').css('height','auto');
                         $('.n-pop-order').removeClass('n-pop-order--active');
