@@ -169,12 +169,9 @@ $(document).ready(function() {
                 mainClass: 'my-mfp-slide-bottom',
                 callbacks: {
                     open: function() {
-                        $('.mfp-wrap').width($(window).width());
-                        $('.mfp-wrap').height($(window).height());
-                        $('.n-pop-response').width($(window).width());
-                        $('.n-pop-response').height($(window).height());
                         $('.mfp-content').css('height','100%');
                         $('html').css('min-height','0');
+                        $('.page').hide();
                         $('.mfp-wrap').css('background','#dde2e8');
                         $('.mfp-wrap').css('min-height','900px');
                         $('.mfp-bg').css({'opacity':1,'background':'#dde2e8'});
@@ -183,6 +180,7 @@ $(document).ready(function() {
                     },
                     close: function() {
                         $('html').css('min-height','100%');
+                        $('.page').show();
                     }
                   }
             });
