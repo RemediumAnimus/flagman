@@ -1405,6 +1405,12 @@ div {
 	vertical-align: top;
 }
 
+.cd-section {
+	@media all and (max-width: $mobile-width) {
+		margin-top: -1px;
+	}
+}
+
 
 	
 

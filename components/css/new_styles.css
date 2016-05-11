@@ -913,3 +913,7 @@ div {
 
 .mfp-content {
   vertical-align: top; }
+
+@media all and (max-width: 1070px) {
+  .cd-section {
+    margin-top: -1px; } }
